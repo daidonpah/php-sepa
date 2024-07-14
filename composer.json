@@ -1,0 +1,11 @@
+{
+    "name": "ufozone/php-sepa",
+    "type": "library",
+    "license": "BSD 2-Clause",
+    "autoload": {
+        "psr-4": {
+            "Ufozone\\PhpSepa\\": "vendor/lib/"
+        }
+    },
+    "require": {}
+}
