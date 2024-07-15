@@ -2,11 +2,11 @@
 // $Id: Sepa.php 8745 2024-03-28 17:08:31Z markus $
 declare(strict_types=1);
 
-namespace MG;
+namespace UfoZone;
 
-use \MG\Sepa\Exception as SepaException;
-use \MG\Sepa\Payment;
-use \MG\Sepa\Validator\Factory as ValidatorFactory;
+use \UfoZone\Sepa\Exception as SepaException;
+use \UfoZone\Sepa\Payment;
+use \UfoZone\Sepa\Validator\Factory as ValidatorFactory;
 
 /**
  * SEPA

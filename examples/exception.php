@@ -3,20 +3,20 @@ require __DIR__ . '/../vendor/autoload.php';
 
 try
 {
-	$validatorFactory = new \MG\Sepa\Validator\Factory();
-	$sepa = new \MG\Sepa\CreditTransfer($validatorFactory);
-	$payment = new \MG\Sepa\Payment($validatorFactory);
-	$transaction = new \MG\Sepa\Transaction($validatorFactory);
+	$validatorFactory = new \UfoZone\Sepa\Validator\Factory();
+	$sepa = new \UfoZone\Sepa\CreditTransfer($validatorFactory);
+	$payment = new \UfoZone\Sepa\Payment($validatorFactory);
+	$transaction = new \UfoZone\Sepa\Transaction($validatorFactory);
 }
-catch (\MG\Sepa\Payment\Exception $e)
+catch (\UfoZone\Sepa\Payment\Exception $e)
 {
 	// Payment-Fehler
 }
-catch (\MG\Sepa\Transaction\Exception $e)
+catch (\UfoZone\Sepa\Transaction\Exception $e)
 {
 	// Transaction-Fehler
 }
-catch (\MG\Exception $e)
+catch (\UfoZone\Exception $e)
 {
 	// Sonstiger Fehler
 }
