@@ -2,7 +2,7 @@
 // $Id: CreditorBusinessCode.php 7657 2019-04-12 21:26:58Z markus $
 declare(strict_types=1);
 
-namespace UfoZone\Sepa\Validator;
+namespace UfoZone\PhpSepa\Sepa\Validator;
 
 /**
  * Validates Creditor Business Code
@@ -10,7 +10,7 @@ namespace UfoZone\Sepa\Validator;
  * @author Markus
  * @since      2017-06-15
  */
-class CreditorBusinessCode implements \UfoZone\Sepa\Validator
+class CreditorBusinessCode implements \UfoZone\PhpSepa\Sepa\Validator
 {
 	public function isValid($subject) : bool
 	{

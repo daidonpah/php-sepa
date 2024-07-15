@@ -2,7 +2,7 @@
 // $Id: Date.php 7657 2019-04-12 21:26:58Z markus $
 declare(strict_types=1);
 
-namespace UfoZone\Sepa\Validator;
+namespace UfoZone\PhpSepa\Sepa\Validator;
 
 /**
  * Class to validate date (YYYY-MM-DD)
@@ -10,7 +10,7 @@ namespace UfoZone\Sepa\Validator;
  * @author Markus
  * @since      2017-06-15
  */
-class Date implements \UfoZone\Sepa\Validator
+class Date implements \UfoZone\PhpSepa\Sepa\Validator
 {
 	public function isValid($subject) : bool
 	{

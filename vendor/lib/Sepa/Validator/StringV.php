@@ -2,7 +2,7 @@
 // $Id: StringV.php 7657 2019-04-12 21:26:58Z markus $
 declare(strict_types=1);
 
-namespace UfoZone\Sepa\Validator;
+namespace UfoZone\PhpSepa\Sepa\Validator;
 
 /**
  * Class to validate if the given test subject is a string (also able to invalidate empty strings)
@@ -12,7 +12,7 @@ namespace UfoZone\Sepa\Validator;
  * @author Markus
  * @since      2017-06-15
  */
-class StringV implements \UfoZone\Sepa\Validator
+class StringV implements \UfoZone\PhpSepa\Sepa\Validator
 {
 	public function isValid($subject, bool $failEmpty = false) : bool
 	{

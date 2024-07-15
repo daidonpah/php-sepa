@@ -2,7 +2,7 @@
 // $Id: Scope.php 8740 2024-03-28 16:03:37Z markus $
 declare(strict_types=1);
 
-namespace UfoZone\Sepa\Validator;
+namespace UfoZone\PhpSepa\Sepa\Validator;
 
 /**
  * Class to validate scope
@@ -10,7 +10,7 @@ namespace UfoZone\Sepa\Validator;
  * @author Markus
  * @since      2017-06-15
  */
-class Scope implements \UfoZone\Sepa\Validator
+class Scope implements \UfoZone\PhpSepa\Sepa\Validator
 {
 	public function isValid($subject) : bool
 	{

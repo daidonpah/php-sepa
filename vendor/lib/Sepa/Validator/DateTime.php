@@ -2,7 +2,7 @@
 // $Id: DateTime.php 7657 2019-04-12 21:26:58Z markus $
 declare(strict_types=1);
 
-namespace UfoZone\Sepa\Validator;
+namespace UfoZone\PhpSepa\Sepa\Validator;
 
 /**
  * Class to validate datetime (YYYY-MM-DD\THH:II:SS)
@@ -10,7 +10,7 @@ namespace UfoZone\Sepa\Validator;
  * @author Markus
  * @since      2017-06-15
  */
-class DateTime implements \UfoZone\Sepa\Validator
+class DateTime implements \UfoZone\PhpSepa\Sepa\Validator
 {
 	public function isValid($subject) : bool
 	{

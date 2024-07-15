@@ -2,7 +2,7 @@
 // $Id: Iban.php 8745 2024-03-28 17:08:31Z markus $
 declare(strict_types=1);
 
-namespace UfoZone\Sepa\Validator;
+namespace UfoZone\PhpSepa\Sepa\Validator;
 
 /**
  * Validates IBAN (international)
@@ -10,7 +10,7 @@ namespace UfoZone\Sepa\Validator;
  * @author Markus
  * @since      2017-06-15
  */
-class Iban implements \UfoZone\Sepa\Validator
+class Iban implements \UfoZone\PhpSepa\Sepa\Validator
 {
 	use Checksum;
 	
