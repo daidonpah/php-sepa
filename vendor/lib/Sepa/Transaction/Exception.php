@@ -11,7 +11,7 @@ namespace UfoZone\PhpSepa\Sepa\Transaction;
  * @since      2017-06-13
  * @uses \Exception
  */
-class Exception extends \UfoZone\PhpSepa\Exception
+class Exception extends \UfoZone\PhpSepa\Sepa\Exception
 {
 	const INSTRUCTION_ID_EMPTY = 3101;
 	const INSTRUCTION_ID_INVALID = 3102;

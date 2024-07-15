@@ -11,7 +11,7 @@ namespace UfoZone\PhpSepa\Sepa\Xml;
  * @since      2017-06-13
  * @uses \Exception
  */
-class Exception extends \UfoZone\PhpSepa\Exception
+class Exception extends \UfoZone\PhpSepa\Sepa\Exception
 {
 	const CANNOT_OPEN_TMP_FILE = 4100;
 	const CANNOT_CREATE_XML = 4200;

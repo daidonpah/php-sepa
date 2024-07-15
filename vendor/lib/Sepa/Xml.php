@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace UfoZone\PhpSepa\Sepa;
 
-use \UfoZone\PhpSepa\Exception;
+use \UfoZone\PhpSepa\Sepa\Exception;
 use \UfoZone\PhpSepa\Sepa;
 use \UfoZone\PhpSepa\Sepa\Xml\Exception as XmlException;
 

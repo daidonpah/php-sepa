@@ -20,10 +20,10 @@ class Factory
 		 * @var Validator[]
 		 */
 		static $validators = [];
-		$validatorName = '\\UfoZone\PhpSepa\\Sepa\\Validator\\' . $type;
+		$validatorName = '\\UfoZone\\PhpSepa\\Sepa\\Validator\\' . $type;
 		if (!class_exists($validatorName))
 		{
-			throw new \UfoZone\PhpSepa\Exception('Unknown type: ' . $type);
+			throw new \UfoZone\PhpSepa\Sepa\Exception('Unknown type: ' . $type);
 		}
 		if (!isSet($validators[$type]))
 		{

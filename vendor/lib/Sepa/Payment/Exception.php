@@ -11,7 +11,7 @@ namespace UfoZone\PhpSepa\Sepa\Payment;
  * @since      2017-06-13
  * @uses \Exception
  */
-class Exception extends \UfoZone\PhpSepa\Exception
+class Exception extends \UfoZone\PhpSepa\Sepa\Exception
 {
 	const PAYMENT_INFORMATION_ID_EMPTY = 2101;
 	const PAYMENT_INFORMATION_ID_INVALID = 2102;
